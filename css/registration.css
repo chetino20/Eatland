@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+header {
+  background-color: yellow;
+  color: black;
+  width: 100%;
+  height: 10vh;
+  display: flex; 
+  padding-top: 1rem;
+   padding-left: 1rem;
+  margin-bottom: 4rem;
+  font-style: italic; 
+   align-items: center;
+} 
+header nav a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  align-items: center;
+}
+aside input {
+  color: rgb(0, 0, 8);
+  height: 2rem;
+  margin-bottom: 05cap;
+  border-radius: 01cap;
+  padding: 2cap;
+  /* background-color: yellow;
+   color: white; */
+}
+label {
+  margin-top: 2rem;
+  color: yellow;
+  text-transform: uppercase;
+}
+.submit {
+  background-color: gray;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}

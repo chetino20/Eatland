@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    color: white;
+    text-align: center;
+   
+
+}
+header{
+    background-color: yellow;
+    padding-top: 2rem;
+    
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 19rem;
+    height: 20vh;
+    overflow: hidden;
+   
+    color: black;
+}
+
+
+.nav-1 a {
+    color: black;
+    /* display:flex; */
+    gap: 2rem;
+}
+header nav a{
+    color: black;
+}
+
+
+body header{
+        margin-bottom: 8vh;
+        /* margin-top: 05vh; */
+        text-align: left;
+        
+}
+ body h1 {
+   
+    margin-top: 05vh;
+    margin-bottom: 05vh;
+    color: yellow;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: gray;
+    color: yellow;
+}
+.main-header{
+    background-color: yellow;
+    padding-top: 1rem;
+    display:flex;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: black;
+    height: 20vh;
+}
+
+header nav a{
+      color: black
+}
+h3{
+    color: white;
+    padding-left: 2rem;
+}
+
+input{
+    width: 20%;
+    height: 7.5vh;
+    border: 2px solid;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+footer{
+    margin-top: 3rem;
+    padding-left: 2rem;
+    color: white;
+    font-weight: bold;
+}
