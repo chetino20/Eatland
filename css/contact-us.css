@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: gray;
+    color: yellow;
+}
+.main-header{
+    background-color: yellow;
+    /* padding-top: 1rem; */
+    /* display:flex; */
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: black;
+    height: 20vh;
+}
+
+img{
+    width: 20px;
+    position: absolute;
+}
+
+header nav a{
+      color: black
+}
+h3{
+    color: white;
+    padding-left: 2rem;
+}
+
+
+input{
+    width: 80%;
+    height: 50px;
+    border-radius: 1rem;
+   
+    margin-bottom: 2rem;
+    display: block;
+   
+}
+label{
+    padding-left: 4rem;
+}
+
+footer{
+    margin-top: 3rem;
+    padding-left: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.form-1{
+    margin-left: 5rem;  
+    width: 60vw;
+    padding-left: 17rem;
+}
+
+ .inputbutton-submit{
+    margin-top: 2rem;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: yellow;
+ }
+
+ .inputbutton-submit:hover{
+    background-color: green !important ;
+
+ }

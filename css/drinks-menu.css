@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ 
+.main-header{
+    background-color: yellow;
+    padding-top: 2rem;
+    
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 15rem;
+    color: black;
+}
+
+.nav-{
+    padding-left:4rem;
+    padding-bottom: 1rem;
+    gap: 2rem;
+    display: flex;
+}
+header nav a{
+      color: black;
+     
+}
+
+body{
+    background-color: gray;
+
+}
+h1,h2{
+    margin-bottom: 1rem;
+    color: yellow;
+    margin-top: 1rem;
+}

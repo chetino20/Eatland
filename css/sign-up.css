@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-header{
+    background-color: gold;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: solid; */
+
+}
+
+.nav-links{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-left: 30rem;
+}
+
+.nav-links a{
+    gap:2rem;
+    width: 10rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+img{
+    width: 90px;
+    margin-left: 10px;
+    /* position: fixed; */
+    /* display: flex; */
+}
+#bar,.header-bar{
+    display: none;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    color: white;
+    background: url(/images/front-restaurant-with-wooden-door-large-window-with-word-bar-it_899894-37635.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+
+}
+section::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+
+.wrapper{
+    width: 490px;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    border:1px solid #ffffff80;
+    backdrop-filter: blur(8px);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: gold;
+}
+
+.input-field{
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    margin: 15px 0;
+}
+
+.input-field label{
+    position:absolute;
+    color:#fff;
+    /* top:50px; */
+    left: 0;
+    transform: translateY(-50);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+}
+
+.input-field input{
+    width: 100%;
+    height: 40px;
+    color: gold;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label{
+    font-size: 0.8rem ;
+    top:-3px;
+    transform: translateY(-120);
+}
+
+.forget{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 35px 0;
+    color: #fff;
+
+}
+.forget a:hover{
+    color: gold;
+}
+
+.forget :hover{
+    color: gold;
+}
+
+#remember{
+    accent-color: #fff;
+    /* color: gold; */
+}
+#remember a:hover{
+    color: gold;
+}
+
+.forget label{
+    display: flex;
+    align-items: center;
+}
+
+.forget label p{
+    margin-left: 8px;
+}
+
+.wrapper  a{
+    color: #efefef;
+    text-decoration: underline;
+}
+
+button{
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12 px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: .3s ease;
+}
+.register a:hover{
+    color: gold;
+}
+button:hover{
+    background-color: gold;
+}
+
+/* .register{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    
+} */
+
+footer{
+    background-color: gold;
+    height: 20vh;
+    width: 100%;
+
+}
+
+/* responsiveness */ 
+
+@media (max-width:950px) {
+    /* .header-bar.nav-links{
+        display: flex ;
+    } */
+     .header-bar .bars{
+    background-color: #000;
+    margin-top: 3px;
+    padding: 1.5px;
+    width: 100%;
+    display:inline-block;
+}
+.header-bar{
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 15px;
+    margin-right: 10px;
+    margin-top: 25px;
+    
+
+} 
+
+   
+    .nav-links{
+        position: absolute;
+        top: 80px;
+        background-color: gray;
+        width: 100%;
+        max-width: 250px; 
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+        right:-100%;
+        transition: right 300ms ease-in;
+        z-index: 1;
+        opacity: .9;
+        border: 2rem;
+        text-transform: uppercase;
+    }
+    .nav-links a:hover{
+        color: gold;
+    }
+
+    #bar{
+        transform: scale(1);
+        transition: right 500ms ease-in-out;
+
+    }
+
+    #bar:checked~ .nav-links{
+        right: 0;
+        
+    }
+}
+
+    
